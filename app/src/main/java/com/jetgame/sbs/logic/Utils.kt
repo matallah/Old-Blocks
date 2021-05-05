@@ -1,4 +1,4 @@
-package com.jetgame.tetris.logic
+package com.jetgame.sbs.logic
 
 import android.annotation.SuppressLint
 import android.app.Activity

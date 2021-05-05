@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui
+package com.jetgame.sbs.ui
 
 import android.graphics.Paint
 import androidx.compose.animation.core.RepeatMode
@@ -43,15 +43,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.jetgame.tetris.R
-import com.jetgame.tetris.logic.Brick
-import com.jetgame.tetris.logic.GameStatus
-import com.jetgame.tetris.logic.GameViewModel
-import com.jetgame.tetris.logic.NextMatrix
-import com.jetgame.tetris.logic.Spirit
-import com.jetgame.tetris.logic.SpiritType
-import com.jetgame.tetris.ui.theme.BrickMatrix
-import com.jetgame.tetris.ui.theme.BrickSpirit
-import com.jetgame.tetris.ui.theme.ScreenBackground
+import com.jetgame.sbs.logic.Brick
+import com.jetgame.sbs.logic.GameStatus
+import com.jetgame.sbs.logic.GameViewModel
+import com.jetgame.sbs.logic.NextMatrix
+import com.jetgame.sbs.logic.Spirit
+import com.jetgame.sbs.logic.SpiritType
+import com.jetgame.sbs.ui.theme.BrickMatrix
+import com.jetgame.sbs.ui.theme.BrickSpirit
+import com.jetgame.sbs.ui.theme.ScreenBackground
 import kotlinx.coroutines.ObsoleteCoroutinesApi
 import kotlin.math.min
 

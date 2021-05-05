@@ -1,4 +1,4 @@
-package com.jetgame.tetris
+package com.jetgame.sbs
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,12 +14,12 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.jetgame.tetris.logic.*
-import com.jetgame.tetris.ui.GameBody
-import com.jetgame.tetris.ui.GameScreen
-import com.jetgame.tetris.ui.PreviewGamescreen
-import com.jetgame.tetris.ui.combinedClickable
-import com.jetgame.tetris.ui.theme.ComposetetrisTheme
+import com.jetgame.sbs.logic.*
+import com.jetgame.sbs.ui.GameBody
+import com.jetgame.sbs.ui.GameScreen
+import com.jetgame.sbs.ui.PreviewGamescreen
+import com.jetgame.sbs.ui.combinedClickable
+import com.jetgame.sbs.ui.theme.ComposetetrisTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 

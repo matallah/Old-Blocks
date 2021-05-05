@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui
+package com.jetgame.sbs.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -29,9 +29,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.jetgame.tetris.R
-import com.jetgame.tetris.logic.Direction
-import com.jetgame.tetris.ui.theme.BodyColor
-import com.jetgame.tetris.ui.theme.ScreenBackground
+import com.jetgame.sbs.logic.Direction
+import com.jetgame.sbs.ui.theme.BodyColor
+import com.jetgame.sbs.ui.theme.ScreenBackground
 
 @Composable
 fun GameBody(

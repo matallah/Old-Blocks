@@ -1,8 +1,8 @@
-package com.jetgame.tetris.logic
+package com.jetgame.sbs.logic
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.jetgame.tetris.logic.Spirit.Companion.Empty
+import com.jetgame.sbs.logic.Spirit.Companion.Empty
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Composetetris">
         <activity
-            android:name=".MainActivity"
+            android:name="com.jetgame.sbs.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Composetetris.NoActionBar">

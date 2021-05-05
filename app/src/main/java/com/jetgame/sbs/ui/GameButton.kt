@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui
+package com.jetgame.sbs.ui
 
 import android.view.MotionEvent.*
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -24,8 +24,8 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.input.pointer.pointerInteropFilter
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.jetgame.tetris.ui.theme.Purple200
-import com.jetgame.tetris.ui.theme.Purple500
+import com.jetgame.sbs.ui.theme.Purple200
+import com.jetgame.sbs.ui.theme.Purple500
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.ticker
 import kotlinx.coroutines.flow.collect
